@@ -7,7 +7,7 @@ def oxford_comma(array)
       new_array.push(fruit + ", ")
     end
     new_array.insert (-2, "and" )
-    
+    return new_Array.join(" ")
 end
 end
 end
