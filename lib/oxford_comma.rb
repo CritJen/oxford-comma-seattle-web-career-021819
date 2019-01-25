@@ -7,7 +7,7 @@ def oxford_comma(array)
   array.join(", ")
   ending.join(" ")
   final_string = array + ending
-  return final_string.delete(")
+  return final_string.delete ""
 end
 end
 end
