@@ -5,6 +5,9 @@ def oxford_comma(array)
   new _array = []
     array.each do |fruit|
       new_array.push(fruit + ", ")
+    end
+    new_array.insert (-2, "and" )
+    
 end
 end
 end
