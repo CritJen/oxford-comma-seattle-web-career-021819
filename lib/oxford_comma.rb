@@ -9,6 +9,8 @@ def oxford_comma(array)
       new_array.push(fruit + ", ")
     end
   return new_array.join("") + ending.join("")
+else if array.length == 1
+  return array.join("")
 end
 end
 end
